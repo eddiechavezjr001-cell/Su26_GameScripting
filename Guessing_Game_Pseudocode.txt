@@ -1,0 +1,33 @@
+VARIABLES:
+gameActive = true
+randomNumber = 0
+userGuess = nil
+attemptCount = 0
+maxAttempts = 7
+playAgain = ""
+
+MAIN GAME LOOP 
+
+WHILE gameActive = true
+    1. SET randomNumber = random number between 1 and 100
+    2. SET attemptCount = 0
+    3. SET userGuess = nil
+
+
+    WHILE attemptCount < maxAttempts
+    1. userGuess = (collect user input)
+    2. if (userGuess == randomNumber)
+    3. USER WINS 
+    else
+    4. USER LOSE 
+    5. increment attempt count (attemptcount++)
+
+    y to continue, any other to quit 
+    IF y continue
+    If other gameActive = false 
+    end 
+
+    
+    
+
+
